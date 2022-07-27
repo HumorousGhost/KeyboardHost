@@ -8,7 +8,14 @@ this framework can be used because `TextField` and `TextEditor` cannot make the 
 
 Encapsulated `UITextView`, `UITextField` can also be used
 
-## Demo
+## Supported Platforms
+
+* iOS 13.0
+* macOS 10.15
+* tvOS 13.0
+* watchOS 6.0
+
+## Usage
 
 ```swift
     @State private var text: String = ""
@@ -30,6 +37,6 @@ Encapsulated `UITextView`, `UITextField` can also be used
 
 You can add KeyboardHost to an Xcode project by adding it as a package dependency.
 
-1. From the File menu, select Swift Packages › Add Package Dependency…
+1. From the **File** menu, select **Swift Packages** › **Add Package Dependency…**
 2. Enter https://github.com/HumorousGhost/KeyboardHost into the package repository URL text field
-3. Link KeyboardHost to your application target
+3. Link **KeyboardHost** to your application target
