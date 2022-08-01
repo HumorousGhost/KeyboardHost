@@ -8,6 +8,7 @@ this framework can be used because `TextField` and `TextEditor` cannot make the 
 
 Encapsulated `UITextView`, `UITextField` can also be used
 
+
 ## Supported Platforms
 
 * iOS 13.0
